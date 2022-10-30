@@ -28,5 +28,5 @@ But now, they have decided to update their methods to use SQL, a definite upgrad
   - There are on about 1500 mentorship-ready employees not near enough to cover the employees preparing for retirement. 
 
 * Additional Queries: 
- - Use this to assess the number of employees who have left and then returned to the company
- - Or use this data to see how many employees have been promoted with in certain dates
+   - Use this to assess the number of employees who have left and then returned to the company
+   - Or use this data to see how many employees have been promoted with in certain dates
