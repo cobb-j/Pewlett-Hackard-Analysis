@@ -9,21 +9,24 @@ But now, they have decided to update their methods to use SQL, a definite upgrad
 
 ## Results:
 
-* #1: After creating the ERD throughout module 7, to simplify data our first result was to create a csv file which showed the amount of employeese retiring and the positions they held. By using SQL, we were able to conduct retrieve specfic field from two csv and combine them with a retirementt age parameter to show who is ready for retirement. 
+* #1: After creating the ERD throughout module 7, to simplify data our first result was to create a csv file which showed the amount of employeese retiring and the positions they held. This result showed the same employees holding multiple positions.
+-Reference:[retirement_titles.csv](https://github.com/cobb-j/Pewlett-Hackard-Analysis/files/9895309/retirement_titles.csv)
+
+* #2: By using SQL, we were able to conduct retrieve specfic field from two csv and combine them with a retirementt age parameter to show who is ready for retirement along with show one job title for each employee number that was current. 
 - Reference: [unique_titles.csv](https://github.com/cobb-j/Pewlett-Hackard-Analysis/files/9895295/unique_titles.csv)
 
-* #2: The next result, we had to use a Distinct ON to only show one employee number due to duplicate entries for some employees because they have switched titles over the years. This result as also weeded out those employeese who have left or were terminated. The table that was created from this showed a count of how many employees were retiring and what there current job title was at the time
+* #3: The next result, we had to use a Distinct ON to only show one employee number due to duplicate entries for some employees because they have switched titles over the years. This result as also weeded out those employeese who have left or were terminated. The table that was created from this showed a count of how many employees were retiring and what there current job title was at the time
 - Reference:[retiring_titles.csv](https://github.com/cobb-j/Pewlett-Hackard-Analysis/files/9895294/retiring_titles.csv)
 
-* #3: Next we were able to create a new table in a csv file that showed eligibily for Pewlett Hackard's mentorship program. Again in this instance we used distinct on find just one employee name to avoid duplicates and also filter by birth date to show the retirement age and add in the title they carried as current employees. 
+* #4: Last, we were able to create a new table in a csv file that showed eligibily for Pewlett Hackard's mentorship program. Again in this instance we used distinct on find just one employee name to avoid duplicates and also filter by birth date to show the retirement age and add in the title they carried as current employees. 
 - Reference: [mentorship_eligibilty.csv](https://github.com/cobb-j/Pewlett-Hackard-Analysis/files/9895303/mentorship_eligibilty.csv)
-
-* #4: Final Result shows, the 
 
 ## Summary:
 * How many roles will need to be filled as the "silver tsunami" begins to make an impact?
-  - 
+  - 90,398 roles are in urgent need to be filled. 
 * Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees?
-  -
+  - There are on about 1500 mentorship-ready employees not near enough to cover the employees preparing for retirement. 
+
 * Additional Queries: 
- 
+ - Use this to assess the number of employees who have left and then returned to the company
+ - Or use this data to see how many employees have been promoted with in certain dates
