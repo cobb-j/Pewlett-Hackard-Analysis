@@ -19,5 +19,5 @@ But now, they have decided to update their methods to use SQL, a definite upgrad
   - 
 * Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees?
   -
-* Additional queries: 
+* Additional Queries: 
  
